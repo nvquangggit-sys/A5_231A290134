@@ -9,6 +9,7 @@
     <string name="open_detail">Xem chi tiết (mở màn hình 2)</string>
     <string name="returned_none">Chưa có dữ liệu trả về</string>
     <string name="returned">Màn hình 2 trả về: %1$s</string>
+    <string name="returned_with_note">Màn hình 2 trả về: %1$s – Ghi chú: %2$s</string>
     <string name="returned_cancel">Người dùng đã hủy, không có dữ liệu trả về</string>
     <string name="section_implicit">Intent ngầm định (gọi ứng dụng khác)</string>
     <string name="call">Gọi</string>
@@ -27,4 +28,23 @@
     <string name="share_subject">Thông tin liên hệ</string>
     <string name="share_text">Liên hệ: %1$s – %2$s</string>
     <string name="share_title">Chia sẻ qua</string>
+
+    <!-- NC1: màn hình 3 (Ghi chú) -->
+    <string name="add_note">Thêm ghi chú (màn hình 3)</string>
+    <string name="note_label">Ghi chú: %1$s</string>
+    <string name="note_title">Thêm ghi chú</string>
+    <string name="note_for">Ghi chú cho: %1$s</string>
+    <string name="hint_note">Nhập ghi chú</string>
+    <string name="save_note">Lưu ghi chú</string>
+
+    <!-- NC2: truyền danh sách -->
+    <string name="add_to_list">Thêm vào danh sách</string>
+    <string name="view_list">Xem danh sách</string>
+    <string name="added_to_list">Đã thêm. Danh sách có %1$d liên hệ</string>
+    <string name="list_empty">Danh sách đang trống – hãy thêm liên hệ ở màn hình 1</string>
+    <string name="list_count">Nhận được %1$d liên hệ</string>
+    <string name="close">Đóng</string>
+
+    <!-- NC4: nhận chia sẻ -->
+    <string name="shared_received">Đã nhận văn bản được chia sẻ</string>
 </resources>

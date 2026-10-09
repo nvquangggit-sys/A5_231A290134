@@ -9,33 +9,27 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/detail_title"
+        android:text="@string/note_title"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/tvThongTin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:lineSpacingExtra="4dp"
-        android:textSize="16sp" />
-
-    <TextView
-        android:id="@+id/tvNguoiGui"
+        android:id="@+id/tvChoAi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:textSize="13sp" />
+        android:textSize="14sp" />
 
     <EditText
-        android:id="@+id/edtHoTenMoi"
+        android:id="@+id/edtGhiChu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:hint="@string/hint_new_name"
+        android:layout_marginTop="16dp"
+        android:gravity="top"
+        android:hint="@string/hint_note"
         android:importantForAutofill="no"
-        android:inputType="textPersonName" />
+        android:inputType="textMultiLine"
+        android:minLines="3" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -44,14 +38,14 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnLuu"
+            android:id="@+id/btnLuuGhiChu"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/save_back" />
+            android:text="@string/save_note" />
 
         <Button
-            android:id="@+id/btnHuy"
+            android:id="@+id/btnHuyGhiChu"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -59,21 +53,4 @@
             android:layout_weight="1"
             android:text="@string/cancel" />
     </LinearLayout>
-
-    <!-- NC1: mở màn hình 3 và hiện ghi chú nhận về -->
-    <Button
-        android:id="@+id/btnThemGhiChu"
-        style="?attr/materialButtonOutlinedStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="@string/add_note" />
-
-    <TextView
-        android:id="@+id/tvGhiChu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:textSize="16sp"
-        android:textStyle="bold" />
 </LinearLayout>
